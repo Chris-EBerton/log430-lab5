@@ -9,8 +9,19 @@
 ## 1. Question 1 : Quelle réponse obtenons-nous à la requête à POST /payments ? Illustrez votre réponse avec des captures d'écran/du terminal.
 Réponse
 
+Problème côté payment avec add_payment: Les requêtes  ne parviennent pas au payment
+
+![Error Code](image.png)
+
 ## 2. Question 2 : Quel type d'information envoyons-nous dans la requête à POST payments/process/:id ? Est-ce que ce serait le même format si on communiquait avec un service SOA, par exemple ? Illustrez votre réponse avec des exemples et captures d'écran/terminal.
 
+![Post orders](image-1.png)
+
+![Get Orders](image-3.png)
+
+
+
+![Get payments id](image-5.png)
 
 ## 3. Question 3 : Quel résultat obtenons-nous de la requête à POST payments/process/:id?
 Réponse
