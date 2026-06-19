@@ -28,10 +28,14 @@ Erreur interne lorsque utilise krakend et problème de permissions lorsque passe
 ![Get payments id](image-5.png)
 
 ## 3. Question 3 : Quel résultat obtenons-nous de la requête à POST payments/process/:id?
-Réponse
 
+Le résultat retourne une erreur car il ne reconnait pas le endpoint.
+
+![Endpoint introuvable](image-9.png)
 ## 4.  Question 4 : Quelle méthode avez-vous dû modifier dans log430-labo05-payment et qu'avez-vous modifiée ? Justifiez avec un extrait de code.
 Réponse
+![Process Payment](image-10.png)
+La méthode modifiée est la méthode process_payment. La valeur de retour et la requête ont été modifiés.
 
 ## 5.  Question 5 : À partir de combien de requêtes par minute observez-vous les erreurs 503 ? Justifiez avec des captures d'écran de Locust.
 
