@@ -34,4 +34,4 @@ jobs:
           
       - name: Run tests
         working-directory: src
-        run: echo pytest
+        run: pytest
