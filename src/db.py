@@ -14,6 +14,7 @@ from sqlalchemy.orm import sessionmaker
 # https://redis.io/docs/latest/develop/clients/pools-and-muxing/
 pool = redis.ConnectionPool(host=config.REDIS_HOST, port=config.REDIS_PORT, db=config.REDIS_DB, decode_responses=True)
 
+print("DB_NAME =", config.DB_NAME)
 def get_mysql_conn():
     """Get a MySQL connection using env variables"""
     return mysql.connector.connect(

@@ -8,10 +8,14 @@
 
 ## 1. Question 1 : Quelle réponse obtenons-nous à la requête à POST /payments ? Illustrez votre réponse avec des captures d'écran/du terminal.
 Réponse
+Erreur interne lorsque utilise krakend et problème de permissions lorsque passe par API directement.
 
-Problème côté payment avec add_payment: Les requêtes  ne parviennent pas au payment
 
-![Error Code](image.png)
+![KrakenD error](image-7.png)
+
+![alt text](image-8.png)
+
+![Erreurs](image-6.png)
 
 ## 2. Question 2 : Quel type d'information envoyons-nous dans la requête à POST payments/process/:id ? Est-ce que ce serait le même format si on communiquait avec un service SOA, par exemple ? Illustrez votre réponse avec des exemples et captures d'écran/terminal.
 
