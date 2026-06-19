@@ -26,7 +26,6 @@ jobs:
           echo "REDIS_DB=${{ secrets.REDIS_DB }}" >> .env
           echo "KAFKA_HOST=${{ secrets.KAFKA_HOST }}" >> .env
 
-
       - name: Restart app
         run: |
           docker-compose -f docker-compose.yml down
