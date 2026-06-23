@@ -59,4 +59,4 @@ jobs:
 
       - name: Run tests
         working-directory: src
-        run: echo "Call pytest command here!"
+        run: pytest
